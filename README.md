@@ -1,8 +1,8 @@
 1. Firstly, create python package.
 
-ProjectName
-|__ __init__.py
-|__ ModuleName.py
+1. ProjectName
+2. |__ __init__.py
+3. |__ ModuleName.py
 
 2. Now, add pyproject.toml file & add respective metadata. Add setup.cfg, README.md.
 
