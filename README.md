@@ -1,19 +1,19 @@
-1. Firstly, create python package.
+Firstly, create python package.</br>
 
 ProjectName</br>
 |__ __init__.py</br>
 |__ ModuleName.py</br>
 
-4. Now, add pyproject.toml file & add respective metadata. Add setup.cfg, README.md.
+Now, add pyproject.toml file & add respective metadata. Add setup.cfg, README.md.</br>
 
-4. ProjectName
-6. |__ __init__.py
-7. |__ ModuleName.py
-8. pyproject.toml
-9. setup.cfg
-10. README.md
+ProjectName</br>
+|__ __init__.py</br>
+|__ ModuleName.py</br>
+pyproject.toml</br>
+setup.cfg</br>
+README.md</br>
 
-11. Install poetry: '(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python –'.
-12. Add to environment path variable: 'C:\Users\poonamc\AppData\Roaming\pypoetry\venv\Scripts'.
-13. Run 'poetry --version' cmd to check if poetry is installed successfully.
-14. Now, run 'poetry build' it will generate dist folder and .whl & .tar.gz files inside dist.
+Install poetry: '(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python –'.</br>
+Add to environment path variable: 'C:\Users\poonamc\AppData\Roaming\pypoetry\venv\Scripts'.</br>
+Run 'poetry --version' cmd to check if poetry is installed successfully.</br>
+Now, run 'poetry build' it will generate dist folder and .whl & .tar.gz files inside dist.</br>
