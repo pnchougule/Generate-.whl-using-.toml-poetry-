@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "PyProject"
+version = "0.1.0"
+description = "Your package description"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+et-xmlfile="1.1.0"
+numpy="1.26.4"
+openpyxl="3.1.2"
+pandas="2.2.2"
+PyMuPDF="1.24.2"
+PyMuPDFb="1.24.1"
+python-dateutil="2.9.0.post0"
+pytz="2024.1"
+six="1.16.0"
+tzdata="2024.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins.poetry-plugin]
+include = "data/*.pdf, data/*.xlsx"
+
+
+#[build-system]
+#requires = ['setuptools>=42']
+#build-backend = 'setuptools.build_meta'

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+PyProject/Module_1.py
+PyProject/__init__.py
+PyProject.egg-info/PKG-INFO
+PyProject.egg-info/SOURCES.txt
+PyProject.egg-info/dependency_links.txt
+PyProject.egg-info/top_level.txt
