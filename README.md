@@ -1,4 +1,5 @@
-Firstly, create python package.</br>
+Firstly, create virtual environment.</br>
+Then add project folder & add python package (create your package).</br>
 
 ProjectName</br>
 |__ __init__.py</br>
