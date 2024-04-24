@@ -23,8 +23,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.plugins.poetry-plugin]
 include = "data/*.pdf, data/*.xlsx"
-
-
-#[build-system]
-#requires = ['setuptools>=42']
-#build-backend = 'setuptools.build_meta'
